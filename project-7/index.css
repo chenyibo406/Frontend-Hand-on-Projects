@@ -1,0 +1,32 @@
+.parent {
+  background-color: aquamarine;
+  border: 5px solid black;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.children1 {
+  background-color: coral;
+  border: 5px solid grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+.grandchildren1 {
+  background-color: brown;
+  border: 5px solid grey;
+  padding: 10px;
+}
+
+.children2 {
+  background-color: goldenrod;
+  border: 5px solid grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+.grandchildren2 {
+  background-color: green;
+  border: 5px solid grey;
+  padding: 10px;
+}

@@ -1,0 +1,24 @@
+body {
+  width: 500px;
+  height: 500px;
+}
+
+.pixel {
+  background-color: aquamarine;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+}
+.rem {
+  background-color: bisque;
+  border: 2px solid black;
+  width: 10rem;
+  height: 10rem;
+}
+
+.percentage {
+  background-color: hotpink;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+}

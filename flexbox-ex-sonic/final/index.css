@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+#imgcontainer {
+  background-image: linear-gradient(to bottom right, #007adf 0%, #00ecbc 100%);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-family: "ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.info p {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+}
+
+.info {
+  width: 400px;
+  height: 150px;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 10px;
+  background-image: linear-gradient(to bottom right, #434343 0%, black 100%);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
