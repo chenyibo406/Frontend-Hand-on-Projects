@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- All HTML documents must start with a <!DOCTYPE> declaration.
+    The declaration is not an HTML tag. 
+    It is an "information" to the browser about what document type 
+    to expect. In HTML 5, the declaration is simple:  <!DOCTYPE html> -->
+<html lang="en">
+  <!-- The <html lang=”en-US’> specifies the language 
+    code of the page followed by the country code that 
+    means US style of English language is used for all 
+    the text on the page.
+ -->
+  <head>
+    <!-- The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. HTML metadata is data about the HTML document. Metadata is not displayed. 
+        Metadata typically define the document title, character set, styles, scripts, and other meta information.  -->
+
+    <meta charset="UTF-8" />
+    <!-- The charset attribute specifies the character encoding for the HTML document.
+The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world!
+ -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- The X-UA-Compatible meta tag allows web authors to 
+        choose what version of Internet Explorer the page should be rendered as.
+         There is a very well explanation about this syntax, you can go deeper
+        from here: https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- HTML5 introduced a method to let web designers take control over the
+    viewport, through the
+    <meta />
+    tag. This gives the browser instructions on how to control the page's
+    dimensions and scaling. The width=device-width part sets the width of the
+    page to follow the screen-width of the device (which will vary depending on
+    the device). The initial-scale=1.0 part sets the initial zoom level when the
+    page is first loaded by the browser. Here is a link from W3schools of
+    explanation everything very clear of this syntax:
+    https://www.w3schools.com/css/css_rwd_viewport.asp -->
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <script src="./index.js"></script>
+  </body>
+</html>

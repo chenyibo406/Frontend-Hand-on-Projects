@@ -1,24 +1,41 @@
-body {
-  width: 500px;
-  height: 500px;
-}
-
-.pixel {
+/* .parent {
   background-color: aquamarine;
-  border: 2px solid black;
-  width: 500px;
-  height: 500px;
-}
-.rem {
-  background-color: bisque;
-  border: 2px solid black;
-  width: 10rem;
-  height: 10rem;
+  border: 5px solid black;
+  padding: 10px;
+  font-size: 30px;
 }
 
-.percentage {
-  background-color: hotpink;
-  border: 2px solid black;
-  width: 100%;
-  height: 100%;
+.children1 {
+  background-color: coral;
+  border: 5px solid grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+.grandchildren1 {
+  background-color: brown;
+  border: 5px solid grey;
+  padding: 10px;
+}
+
+.children2 {
+  background-color: goldenrod;
+  border: 5px solid grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+.grandchildren2 {
+  background-color: green;
+  border: 5px solid grey;
+  padding: 10px;
+} */
+
+html {
+  font-size: 22px;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
 }

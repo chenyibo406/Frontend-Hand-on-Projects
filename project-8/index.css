@@ -1,32 +1,53 @@
-.parent {
-  background-color: aquamarine;
-  border: 5px solid black;
-  padding: 10px;
-  font-size: 30px;
-}
-
-.children1 {
-  background-color: coral;
-  border: 5px solid grey;
-  padding: 10px;
-  margin: 10px;
-}
-
-.grandchildren1 {
+h1 {
   background-color: brown;
   border: 5px solid grey;
+  margin: 10px;
   padding: 10px;
 }
-
-.children2 {
+h2 {
+  background-color: crimson;
+  border: 5px solid grey;
+  margin: 10px;
+  padding: 10px;
+}
+h3 {
+  background-color: orangered;
+  border: 5px solid grey;
+  margin: 10px;
+  padding: 10px;
+}
+h4 {
   background-color: goldenrod;
   border: 5px solid grey;
-  padding: 10px;
   margin: 10px;
+  padding: 10px;
+}
+h5 {
+  background-color: cornsilk;
+  border: 5px solid grey;
+  margin: 10px;
+  padding: 10px;
+}
+h6 {
+  background-color: bisque;
+  border: 5px solid grey;
+  margin: 10px;
+  padding: 10px;
 }
 
-.grandchildren2 {
-  background-color: green;
+.box {
+  background-color: rgb(158, 37, 57);
   border: 5px solid grey;
+  margin: 10px;
   padding: 10px;
+  color: #fff;
 }
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+/* Try to comment div with VScode comment shortcut to see what would happend in browser */
+/* and figure it out why happend */

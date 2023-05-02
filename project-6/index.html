@@ -1,16 +1,47 @@
 <!DOCTYPE html>
+<!-- start tag with a doctype first -->
 <html lang="en">
+  <!-- add a lang attribute to the html start tag to declare the language of this document. -->
   <head>
     <meta charset="UTF-8" />
+    <!-- declare the character encoding, and proceeding use UTF-8 -->
+    <meta name="author" content="Yibo Chen" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning how to
+    create as I learn HTML"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My first Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <style>
+      html {
+        font-size: 22px;
+      }
+      body {
+        background-color: #333;
+        color: whitesmoke;
+      }
+    </style>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div class="pixel">pixel</div>
-    <div class="rem">rem</div>
-    <div class="percentage">%</div>
+    <!-- HTML node tree -->
+    <!-- <div class="parent">
+      parent
+      <div class="children1">
+        children1
+        <div class="grandchildren1">grandchildren1</div>
+      </div>
+      <div class="children2">
+        children2
+        <div class="grandchildren2">grandchildren2</div>
+      </div>
+    </div> -->
+
     <script src="./index.js"></script>
   </body>
 </html>
+
+<!-- https://validator.w3.org/#validate-by-upload -->
