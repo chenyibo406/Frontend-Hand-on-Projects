@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: orangered;
+  font-size: 1.6rem;
+}
+
+.text {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.container {
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #000;
+}
+
+.item {
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  margin: 5px;
+  width: 100px;
+}
+
+/* text-align only work for inline or inline
+element (like text or link) */
+/* it would horizontally center the element */
+
+.example-2 {
+  width: 100%;
+  /* height: auto; */
+  background-color: #272222;
+  margin-top: 20px;
+  padding: 20px;
+  /* margin: 0 auto; */
+}
+
+.center-me {
+  height: 50px;
+  width: 500px;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+/* You can center a block-level element by giving it margin-left and margin-right of auto (and it has a set width, otherwise it would be full width and wouldn’t need centering).  */
+
+/* example-3 */
+main {
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+main div {
+  background: black;
+  color: white;
+  padding: 15px;
+  max-width: 125px;
+  margin: 5px;
+}
+
+.inline-block-center {
+  text-align: center;
+}
+.inline-block-center div {
+  display: inline-block;
+  text-align: left;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}

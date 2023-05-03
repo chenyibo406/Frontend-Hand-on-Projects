@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 100px; */
+  /* padding: 20px; */
+}
+
+/* Demo 1 */
+
+/* .divs {
+  background-color: #101010;
+  width: 800px;
+  height: 600px;
+  display: flex;
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.two {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 71, 164);
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+.four {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+}
+
+div.two {
+  position: relative;
+  top: -10px;
+  left: 225px;
+  opacity: 70%;
+  z-index: -1;
+} */
+
+/* note: the default positon of element is
+static. Position relative is relative its original
+position. */
+
+/* div.three {
+  z-index: 1;
+}
+
+div.four {
+  z-index: 3;
+} */
+
+.container {
+  background-color: black;
+  width: 95%;
+  height: 95vh;
+  /* padding: 100px; */
+  padding: 40px;
+}
+
+.one {
+  background-color: red;
+  padding: 100px;
+  margin: 40px;
+}
+
+.two {
+  background-color: orange;
+  padding: 100px;
+  padding: 40px;
+}
+
+.three {
+  background-color: yellow;
+  padding: 100px;
+  padding: 40px;
+}
+
+.four {
+  background-color: green;
+  /* padding: 50px; */
+  display: flex;
+  opacity: 0.8;
+  /* margin: auto; */
+  /* justify-content: center; */
+  /* align-items: center;  */
+}
+
+.four p {
+  margin: auto;
+}
+
+div.two {
+  position: relative;
+}
+
+div.four {
+  /* position: absolute; */
+  /* top: 200px;
+  left: 200px; */
+  /* z-index: -1; */
+  height: 200px;
+  width: 200px;
+  /* padding: 100px; */
+  color: white;
+  overflow-y: auto;
+}
+
+/* span {
+  color: rebeccapurple;
+  top: 100px;
+  left: 150px;
+  position: absolute;
+} */
+
+nav {
+  background-color: purple;
+  opacity: 95%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  display: none;
+  visibility: ;
+  opacity: ;
+  display: ;
+}
+
+ul {
+  color: white;
+  visibility: visible;
+}

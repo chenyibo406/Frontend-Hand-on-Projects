@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  background-color: rgb(72, 3, 32);
+  color: #333;
+  font-size: 1.6rem;
+  opacity: 1;
+}
+
+div {
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 130%;
+}
+.light {
+  opacity: 0.2; /* Barely see the text over the background */
+}
+.medium {
+  opacity: 0.5; /* See the text more clearly over the background */
+}
+.heavy {
+  opacity: 0.9; /* See the text very clearly over the background */
+}

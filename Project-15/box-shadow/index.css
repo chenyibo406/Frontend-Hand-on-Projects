@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+code {
+  background-color: grey;
+}
+
+.box {
+  background: white;
+  padding: 2em;
+  /* color: red; */
+  box-shadow: 0 0 20px 20px;
+}
+
+/* percentage won't work in box-shadow setting */
+/* the fourth number of the box-shadow is spread, pushing everything
+out and then blurred */

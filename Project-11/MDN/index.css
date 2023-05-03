@@ -45,6 +45,9 @@ as doing more projects.
   margin: 10px;
 }
 
+/* TODO: Try box-2 with the MDN examples: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+
 .box-2 {
   width: 100px;
   height: 100px;
@@ -60,7 +63,6 @@ as doing more projects.
   left: 40px; */
 
   position: sticky;
-
   top: 0;
 }
 
@@ -82,17 +84,3 @@ p {
   background-color: crimson;
 } */
 
-/* TODO: how to fix sticky position */
-/* https://uxdesign.cc/position-stuck-96c9f55d9526 */
-/* Styles */
-/* .headers {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  width: 100px;
-  height: 100px;
-  background-color: crimson;
-}
-.scroller {
-  overflow: auto;
-} */
